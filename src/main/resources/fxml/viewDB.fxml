@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="tableView" prefHeight="400.0" prefWidth="610.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <columns>
+      <TableColumn fx:id="time" prefWidth="191.0" text="TimeStamp" />
+      <TableColumn fx:id="sortType" minWidth="7.0" prefWidth="181.0" text="Sort Type" />
+      <TableColumn fx:id="maxSize" prefWidth="165.0" text="Max Size" />
+   </columns>
+</TableView>
